@@ -1,4 +1,4 @@
-#E4S Membership Criteria
+## E4S Membership Criteria
 
 The policies below are criteria for E4S membership. To qualify for E4S membership, a package must demonstrate compatibility with each of these policies. Under special circumstances, a package may be granted an exception to a policy.
 
@@ -20,7 +20,7 @@ The policies below are criteria for E4S membership. To qualify for E4S membershi
 
 - **P9** Test Suite Each E4S member package will provide a test suite that does not require special system privileges or the purchase of commercial software. This test suite should grow in its comprehensiveness over time. That is, new and modified features should be included in the suite.
 
-#Future Revision E4S Community Policies
+## Future Revision E4S Community Policies
 
 The policies below are being considered for future revisions of the E4S Community Policies. These policies require further refinement or planning prior to adoption. The topics that these policies address provide information about likely subject areas for E4S policies going forward.
 
@@ -40,7 +40,7 @@ including standard Linux distributions, common compiler toolchains, and differen
 
 - **FP6** Documentation Each E4S member package should have sufficient documentation to support installation, use, and further development, as assessed periodically by its community of peers.
 
-#Library Policies: Apply to linkable libraries and similar products
+## Library Policies: Apply to linkable libraries and similar products
 
 Note: FLP stands for “future library policy”
 
