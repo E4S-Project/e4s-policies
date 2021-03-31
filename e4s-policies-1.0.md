@@ -2,7 +2,7 @@
 
 The policies below are criteria for E4S membership. To qualify for E4S membership, a package must demonstrate compatibility with each of these policies. Under special circumstances, a package may be granted an exception to a policy.
 
-- **P1** Spack-based Build and Installation Each E4S member package supports a scriptable Spack build and production-quality installation in a way that is compatible with other E4S member packages in the same environment. When E4S build, test, or installation issues arise, there is an expectation that teams will collaboratively resolve those issues.
+- **P1** Spack-based Build and Installation Each E4S member package supports a scriptable [Spack](https://spack.io/) build and production-quality installation in a way that is compatible with other E4S member packages in the same environment. When E4S build, test, or installation issues arise, there is an expectation that teams will collaboratively resolve those issues.
 
 - **P2** Minimal Validation Testing Each E4S member package has at least one test that is executable through the E4S validation test suite (https://github.com/E4S-Project/testsuite). This will be a post-installation test that validates the usability of the package. The E4S validation test suite provides basic confidence that a user can compile, install and run every E4S member package. The E4S team can actively participate in the addition of new packages to the suite upon request.
 
@@ -10,7 +10,7 @@ The policies below are criteria for E4S membership. To qualify for E4S membershi
 
 - **P4** Documentation Each E4S member package should have sufficient documentation to support installation and use.
 
-- **P5** Product Metadata Each E4S member package team will provide key product information via metadata that is organized in the E4S DocPortal format. Depending on the filenames where the metadata is located, this may require minimal setup.
+- **P5** Product Metadata Each E4S member package team will provide key product information via metadata that is organized in the [E4S DocPortal](https://e4s-project.github.io/DocPortal.html) format. Depending on the filenames where the metadata is located, this may require [minimal setup](https://github.com/E4S-Project/E4S-Documenter/blob/master/README.md).
 
 - **P6** Public Repository Each E4S member package will have a public repository, for example at GitHub or Bitbucket, where the development version of the package is available and pull requests can be submitted.
 
@@ -28,7 +28,7 @@ Note: FP stands for “future policy”
 
 - **FP1** Portability Each E4S member package team will make a best effort at portability to common platforms. Depending on the function of the member package, considerations may include operating systems, compiler toolchains, architectures and accelerators. Lack of support for configurations should be denoted in appropriate Spack packages when possible.
 
-including standard Linux distributions, common compiler toolchains, and different architectures and accelerators. Consider: self assessed portability score/metric - OS, GPU, etc?
+  including standard Linux distributions, common compiler toolchains, and different architectures and accelerators. Consider: self assessed portability score/metric - OS, GPU, etc?
 
 - **FP2** Flexible Test Selection Support Each E4S member package will support the ability to specify that specific tests will be run for a given system allocation limit on execution time and node configuration resources. Particular use cases include the ability to a) run a subset of the test suite to complete within a few hours on standard workstation-level hardware b) be runnable in batch-only environments, that is, systems that require the use of PBS or other submission scripts.
 
