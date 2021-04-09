@@ -2,6 +2,7 @@
 Versioned archive of E4S policies
 
 Version 0.01 of the e4s policies yaml format uses the following structure:
+```
 #The version of the e4s policies contained in this file
 e4s_policy_version: 1
 #The version of the format used by this file
@@ -33,3 +34,4 @@ policy_groups:
             other E4S member packages in the same environment. When E4S build,
             test, or installation issues arise, there is an expectation that
             teams will collaboratively resolve those is
+```
