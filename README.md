@@ -1,5 +1,7 @@
 # e4s-policies
-Versioned archive of E4S policies
+The e4s-policies repository contains a versioned archive of e4s policy documentation (e.g. e4s-policies-1.0.yaml). The format of these policy files is described below. A policy file contains all information necessary to generate a markdown, html or other human readable policy document. It can also be referenced by tools that evaluate products' e4s policy compliance documents.
+
+An example e4s policy compliance document, e4s-policy-compliance-1.0.yaml, is included in this repository. Products can provide their own compliance document (typcially in the .e4s directory at the root of their repository) or a status of 'unreported' will be assigned to all policies for that product. In combination with the centralized e4s policy document e4s policy compliance documents can be used to generate policy compliance summaries for individual products or product groups. 
 
 Version 0.01 of the e4s policies yaml format uses the following structure:
 ```
