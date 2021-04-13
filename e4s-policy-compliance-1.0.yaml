@@ -1,0 +1,45 @@
+#The name field may be redundant since this can be obtained from context
+product_name: NAME
+#Policy status values: 0: Unreported. 1: Incomplete. 2: Complete.
+overall_policy_status: 0
+e4s_policy_version: 1.0
+e4s_policy_compliance_format_version: 0.01
+policy_groups:
+  - Official:
+      policies:
+        - id: 1
+          policy_status: 0
+          explanation: >
+            "No explanation of policy compliance provided."
+        - id: 2
+          policy_status: 0
+          explanation: >
+            "No explanation of policy compliance provided."     
+        - id: 3
+          policy_status: 0
+          explanation: >
+            "No explanation of policy compliance provided."  
+        - id: 4
+          policy_status: 0
+          explanation: >
+            "No explanation of policy compliance provided."  
+        - id: 5
+          policy_status: 0
+          explanation: >
+            "No explanation of policy compliance provided."  
+        - id: 6
+          policy_status: 0
+          explanation: >
+            "No explanation of policy compliance provided." 
+        - id: 7
+          policy_status: 0
+          explanation: >
+            "No explanation of policy compliance provided."
+        - id: 8
+          policy_status: 0
+          explanation: >
+            "No explanation of policy compliance provided."
+        - id: 9
+          policy_status: 0
+          explanation: >
+            "No explanation of policy compliance provided."
