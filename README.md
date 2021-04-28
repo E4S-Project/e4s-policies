@@ -1,7 +1,7 @@
 # e4s-policies
-The e4s-policies repository contains a versioned archive of e4s policy documentation (e.g. e4s-policies-1.0.yaml). The format of these policy files is described below. A policy file contains all information necessary to generate a markdown, html or other human readable policy document. It can also be referenced by tools that evaluate products' e4s policy compliance documents.
+The e4s-policies repository contains a versioned archive of e4s policy documentation (e.g. e4s-policies-1.0.yaml). The format of these policy files is described below. A policy file contains all information necessary to generate a markdown, html or other human readable policy document. It can also be referenced by tools that evaluate products' e4s policy compatability documents.
 
-An example e4s policy compliance document, e4s-policy-compliance-1.0.yaml, is included in this repository. Products can provide their own compliance document (typcially in the .e4s directory at the root of their repository) or a status of 'unreported' will be assigned to all policies for that product. In combination with the centralized e4s policy document e4s policy compliance documents can be used to generate policy compliance summaries for individual products or product groups. 
+An example e4s policy compatability document, e4s-policy-compatability-1.0.yaml, is included in this repository. Products can provide their own compatability document (typcially in the .e4s directory at the root of their repository) or a status of 'unreported' will be assigned to all policies for that product. In combination with the centralized e4s policy document e4s policy compatability documents can be used to generate policy compatability summaries for individual products or product groups. 
 
 Version 0.01 of the e4s policies yaml format uses the following structure:
 ```
@@ -9,7 +9,7 @@ Version 0.01 of the e4s policies yaml format uses the following structure:
 e4s_policy_version: 1
 #The version of the format used by this file
 e4s_policy_format_version: 0.01
-#A list of sub-groups of policies. As of this writing only the 'Official' policy group is relevant to E4S community compliance. Others are included for reference.
+#A list of sub-groups of policies. As of this writing only the 'Official' policy group is relevant to E4S community compatability. Others are included for reference.
 policy_groups:
   #An object defining a group of policies
   - Official:
@@ -18,7 +18,7 @@ policy_groups:
       #The 'preamble' or detailed description associated with these policies in the official policy document
       preamble: >
         To qualify for E4S
-        membership, a package must demonstrate compatibility with each of these
+        membership, a package must demonstrate compatability with each of these
         policies. Under special circumstances, a package may be granted an
         exception to a policy.
       #The policy type tag used in conjunction with the id when listing individual policies in the official policy document
